@@ -4,7 +4,7 @@ namespace BuilderDesignPatterExample.Controllers.InvoiceBuilderControlers;
 
 public class InvoiceBuilder: IInvoiceBuilder
 {
-    private Invoice _invoice;
+    private Invoice _invoice = new Invoice();
     
     public void SetVendor(string vendor)
     {
